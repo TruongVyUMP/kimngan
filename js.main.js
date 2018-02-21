@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Mà không được để trống đâu nha");   
   return false   }  
- swal("Okie! ", "Món quà:" + inputValue + "sẽ tặng cho Kim Ngân trong 10s nữa hãy đợi nhé! Chúc một ngày Sinh Nhật thật vui vẻ nhé ^^ ", "success"); });
+ swal("Okie! ", "Món quà: " + inputValue + " sẽ tặng cho Kim Ngân trong 10s nữa hãy đợi nhé! Chúc một ngày Sinh Nhật thật vui vẻ nhé ^^ ", "success"); });
 
 
 },3000);
